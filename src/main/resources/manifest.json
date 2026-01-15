@@ -1,20 +1,20 @@
 {
-  "Group": "dev.hytalemodding",
-  "Name": "ExamplePlugin",
+  "Group": "fr.akitain",
+  "Name": "SpawnGuard",
   "Version": "1.0.0",
-  "Description": "Description of your plugin",
+  "Description": "Hytale server plugin for spawn area protection",
   "Authors": [
     {
-      "Name": "Your Name",
-      "Email": "your.email@example.com",
-      "Url": "https://your-website.com"
+      "Name": "Akitain",
+      "Email": "contact@akitain.fr",
+      "Url": "https://github.com/Aqu1tain"
     }
   ],
-  "Website": "https://your-plugin-website.com",
+  "Website": "https://github.com/Aqu1tain/spawnguard",
   "ServerVersion": "*",
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "Main": "dev.hytalemodding.ExamplePlugin"
+  "Main": "fr.akitain.spawnguard.SpawnGuardPlugin"
 }
