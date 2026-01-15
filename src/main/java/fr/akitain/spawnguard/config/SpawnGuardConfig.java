@@ -5,12 +5,16 @@ import javax.annotation.Nonnull;
 public record SpawnGuardConfig(
     boolean enabled,
     int radius,
+    int spawnX,
+    int spawnZ,
     String bypassPermission,
     String denyMessage
 ) {
 
     public static final SpawnGuardConfig DEFAULT = new SpawnGuardConfig(
         true,
+        100,
+        -834,
         100,
         "spawnguard.bypass",
         "You cannot modify blocks in the spawn area!"
